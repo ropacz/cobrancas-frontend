@@ -1,0 +1,43 @@
+.menu ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding: 1em 2em;
+  margin-bottom: 1px;
+  transition: all 0.5s ease;
+}
+
+.menu li:hover {
+  background-color: #374952;
+}
+
+.menu__link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 100%;
+  max-width: 120px;
+  margin: 0 auto;
+}
+
+.menu span {
+  width: 35px;
+}
+
+.menu li img {
+  margin-right: 10px;
+  object-fit: contain;
+}
