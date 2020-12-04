@@ -1,0 +1,11 @@
+.header__account {
+  background-color: white;
+  padding: 2rem;
+}
+
+.header__container {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-wrap: wrap;
+}
