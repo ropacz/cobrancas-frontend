@@ -1,0 +1,20 @@
+.container__password {
+  position: relative;
+  margin-bottom: 25px;
+  width: 100%;
+  height: auto;
+}
+
+.toogle__password {
+  background: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+}
+
+.toogle__password img {
+  cursor: pointer;
+  object-fit: contain;
+  width: 25px;
+  height: 25px;
+}
