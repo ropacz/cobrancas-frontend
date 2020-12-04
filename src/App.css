@@ -1,0 +1,149 @@
+.container__center {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.app__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-color: #f1f1f1;
+}
+
+.container__content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  /* align-items: center; */
+  min-height: 100vh;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  /* max-width: 960px; */
+  width: 100%;
+}
+
+.column--row {
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column--full {
+  flex-direction: column;
+}
+
+.header__top {
+  padding: 2rem;
+}
+
+.header__top h2 {
+  font-weight: normal;
+  font-size: 2em;
+}
+
+.top__container {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  max-height: 80px;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  border: 0;
+  border-radius: 20px;
+  margin: 20px auto;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+  max-width: 185px;
+  width: 100%;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.btn--confirm {
+  background-color: #da0175;
+  border: 2px solid #da0175;
+}
+
+.btn--confirm:hover {
+  background-color: #f2a6cf;
+}
+
+.btn--outline {
+  background-color: #fff;
+  border: 2px solid #da0175;
+  color: #da0175;
+}
+
+.btn--outline:hover {
+  border: 2px solid #f2a6cf;
+}
+
+.form__general {
+  display: flex;
+  flex-direction: column;
+  max-width: 515px;
+  width: 100%;
+}
+
+.form__general input {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  height: 40px;
+  width: 100%;
+  font-size: 1.2em;
+  margin: 0.5em 0;
+  border-radius: 8px;
+}
+.form__general label {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.group__inputs {
+  display: flex;
+  margin-top: 0.5em;
+  flex-direction: row;
+}
+.column__input:last-child {
+  margin-left: 5px;
+}
+
+.group__buttons {
+  display: flex;
+}
