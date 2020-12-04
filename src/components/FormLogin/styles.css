@@ -1,0 +1,48 @@
+.login__box {
+  max-width: 450px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.login__logo {
+  margin: 20px 0;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+  width: 100%;
+}
+
+.login__form input,
+.login__form button {
+  border: 0;
+}
+
+.login__form input {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  width: 100%;
+  font-size: 1.2em;
+}
+.login__form label {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.login__form p {
+  text-align: right;
+  font-size: 1em;
+}
+
+.login__signup {
+  margin-top: 2em;
+}
