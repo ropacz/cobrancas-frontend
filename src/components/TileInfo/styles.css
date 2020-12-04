@@ -1,0 +1,19 @@
+.tile__info {
+  display: flex;
+  padding: 1.5em;
+  border: 3px solid #ddd;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  color: #ddd;
+  margin-bottom: 1em;
+}
+
+.tile__info--text {
+  font-size: 1.2em;
+}
+
+.tile__info--value {
+  font-size: 2em;
+  font-weight: bold;
+}
